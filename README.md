@@ -16,3 +16,25 @@ The general format:
 - **MAJOR** version when you make incompatible API changes
 - **MINOR** version when you add functionality in a backward compatible manner
 - **PATCH** version when you make backward compatible bug fixes
+
+## Install the Terraform CLI
+
+### Considerations with the Terraform CLI changes
+
+The Terraform CLI installation instructions have changed to gpg keyring changes. So the original [gitpod.yml](.gitpod.yml) bash
+are now dated and the latest install CLI instructions via Terraform Documentations and change the scripting for the isntall.
+
+[Install the Terraform CLI](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+
+
+## Refactoring into Bash SCripts
+
+While fixing the Terraform CLI gpg deprecations issues we created a new Terraform bash scripts.
+
+
+https://www.cyberciti.biz/faq/
+how-to-check-os-version-in-linus-command-line/
+https://en.wikipedia.org/wiki/Shebang_(Unix)
+https://en.wikipedia.org//wiki/Chmod
+https://www/gitpod.io/docs/configure/workspaces/
+
